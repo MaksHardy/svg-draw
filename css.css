@@ -1,0 +1,190 @@
+body {
+    width: 100%;
+}
+
+div {
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.svg {
+    height: 700px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+}
+
+@keyframes op {
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.svg-2 {
+    opacity: 0;
+    z-index: 1;
+    animation: op 5s linear forwards;
+}
+
+@keyframes colb {
+    0% {}
+    87% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+    90% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+    100% {
+        // opacity: 0;
+        stroke-dashoffset: 0;
+    }
+}
+
+.colb-1 {
+    stroke-dasharray: 481;
+    stroke-dashoffset: 481;
+    animation: colb 5s linear forwards;
+}
+
+.colb-2 {
+    stroke-dasharray: 444;
+    stroke-dashoffset: -444;
+    animation: colb 5s linear forwards;
+}
+
+.cls-1,
+.cls-2 {
+    fill: none;
+    stroke-width: 0.25px;
+}
+
+.cls-1 {
+    stroke: #1f6fb5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.cls-2 {
+    stroke: #00aac9;
+    stroke-miterlimit: 10;
+}
+
+.cir-1 {
+    stroke-dasharray: 23;
+    stroke-dashoffset: 100;
+    animation: colb 5s linear forwards;
+}
+
+.cir-2 {
+    stroke-dasharray: 41;
+    stroke-dashoffset: 41;
+    animation: colb 5s linear forwards;
+}
+
+.cir-3 {
+    stroke-dasharray: 9;
+    stroke-dashoffset: 41;
+    animation: colb 5s linear forwards;
+}
+
+.cir-4 {
+    stroke-dasharray: 38;
+    stroke-dashoffset: -100;
+    animation: colb 5s linear forwards;
+}
+
+.cir-5 {
+    stroke-dasharray: 48;
+    stroke-dashoffset: -48;
+    animation: colb 5s linear forwards;
+}
+
+.cir-6 {
+    stroke-dasharray: 48;
+    stroke-dashoffset: -48;
+    animation: colb 5s linear forwards;
+}
+
+.cir-7 {
+    stroke-dasharray: 71;
+    stroke-dashoffset: -48;
+    animation: colb 5s linear forwards;
+}
+
+.cr-1 {
+    stroke-dasharray: 40;
+    stroke-dashoffset: -48;
+    animation: colb 5s linear forwards;
+}
+
+.cr-2 {
+    stroke-dasharray: 40;
+    stroke-dashoffset: 48;
+    animation: colb 5s linear forwards;
+}
+
+.cr-3 {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 48;
+    animation: colb 5s linear forwards;
+}
+
+.cr-4 {
+    stroke-dasharray: 60;
+    stroke-dashoffset: -48;
+    animation: colb 5s linear forwards;
+}
+
+.wcls-1 {
+    fill: #1f6fb5;
+}
+
+.wcls-2,
+.wcls-4 {
+    fill: #fff;
+}
+
+.wcls-3 {
+    fill: #00aac9;
+}
+
+.wcls-4 {
+    stroke: #00aac9;
+}
+
+.wcls-4,
+.wcls-5 {
+    stroke-miterlimit: 10;
+}
+
+.wcls-4,
+.wcls-6 {
+    stroke-width: 0.25px;
+}
+
+.wcls-5,
+.wcls-6 {
+    fill: none;
+    stroke: #1f6fb5;
+}
+
+.wcls-6 {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+#cross-1 {
+	-webkit-transform: rotate(1deg);
+	   -moz-transform: rotate(1deg);
+	    -ms-transform: rotate(1deg);
+	     -o-transform: rotate(1deg);
+	        transform: rotate(1deg);
+}
+
+
+
